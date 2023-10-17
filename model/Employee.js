@@ -12,4 +12,4 @@ const employeeSchema = new Schema({
     }
 });
 
-module.exports = mongoose.model('Employee', employeeSchema);
+module.exports = mongoose.model('Employee', employeeSchema);//This line exports the employeeSchema with the model name Employee

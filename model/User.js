@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-const Schema = mongoose.Schema;
+const Schema = mongoose.Schema;//A schema is like a blueprint for defining the structure of documents in a MongoDB collection
 
 const userSchema = new Schema({
     username: {
@@ -22,3 +22,4 @@ const userSchema = new Schema({
 });
 
 module.exports = mongoose.model('User', userSchema);
+//This line exports the schema as a model named 'User'
